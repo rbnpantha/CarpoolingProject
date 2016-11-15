@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Weather Forecast</title>
+		 
+		<link href="css/weather.css" type="text/css" rel="stylesheet" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgf_bRC4in3Zb45VHVwPwRZE0L62P28nU&callback=initMap">
+		    </script>
+		<script src="js/wf.js" type="text/javascript"></script>
+	</head>
+	<body>
+			<div id="display">
+			<div id="search">
+			<h4><a href="home.jsp">Home</a></h4>
+			<br><h3>Get 5 Days Weather By City:</h3>
+				<input type="text" id="city" placeholder="Fairfield">
+				<input type="submit" id="submit" value="Check">
+			</div>
+			<div id="weather"></div>
+			</div>
+			<div id="map"></div>
+			<div id="direction">
+				<h2>Find Out The Route</h2>
+				<h4>Start : <input placeholder="Fairfield,IA" id="start"><br></h4> 
+				
+				<h4>Destination:<input  placeholder="Cedar Rapids,IA" id="end"></h4> 
+				<!-- <h4>Travel Mode<br>  
+					<select id="mode"> 
+		    			<option value="DRIVING ">DRIVING </option>
+		      			<option value="BICYCLING ">BICYCLING</option>
+		     			<option value="WALKING ">WALKING </option> 
+		     		</select>
+		     	</h4> -->
+		    	<h2><input type="submit" id="directionSubmit" value="Find Route"  > </h2>	
+				
+				<div id="summaryPanel"></div>
+				<div id="bothWeather"></div>
+			</div>
+	</body>
+</html>

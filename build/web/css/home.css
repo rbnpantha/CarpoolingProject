@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Sans-serif;
+  background: #2c3e50;
+}
+.post{
+	background-color: aqua;
+	width:80%;
+	margin-left: 10%;
+	margin-right:10%;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#postdiv{
+	background: #2c3e50;
+	width:80%;
+	margin-left: 10%;
+	margin-right:10%;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align: center;
+	clear:both;
+}
+#postdiv input[type='submit']{
+	height: 30px;
+	length:100px;
+}
+#postdiv input[type='textarea']{
+	}
+#postcontainer{
+	width:80%;
+	margin-left: 10%;
+	margin-right:10%;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.posta{
+	text-decoration: none;
+	margin-left: 30%;
+}
+#postmenu{
+	height: 60px;
+	background: green;
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+}
+#ulmenu{
+	
+	
+}
+#ulmenu li{
+	padding: 2px;
+	display: inline;
+	list-style-type: none;
+	text-decoration: underline;
+	color: aqua;
+}
+.msg{
+	background-color:aqua;
+	width:80%;
+	margin-left: 10%;
+	margin-right:10%;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.pride{
+	color:red;
+	text-align: center;
+	font-weight: bold;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+#sessiondiv{
+	float:right;
+	color:red;
+	text-decoration: underline;
+	position:absolute;
+	right:0;
+	top:0;
+}
+#btnLogout{
+	width:100px;
+	height:30px;
+	background-color: red;
+}
+input [type="submit"]{
+	color:black;
+	background-color: aqua;
+}
+.pcomment{
+	color:blue;
+}
+h4 p{
+	color:blue;
+}
+#aask{
+	width:100px;
+	height:30px;
+	background-color: red;
+}

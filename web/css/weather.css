@@ -1,0 +1,27 @@
+ html, body {
+        height: 100%;
+        margin:0;
+        padding:0;
+      }
+ #map {
+        float:left; 
+        width:60%;
+        height: 100%; 
+      }
+    
+  #display{   
+  		width:25%;
+  		float:left;
+        background-color:#8bb3e7;
+        height: 100%; 	
+  }
+  #weather{
+ 	 display:inline-block ;
+  }
+  #direction{
+  	float:right;
+  	width:15%;
+  	background-color:#8bb3e7;
+  	 height: 100%; 	
+  }
+   
